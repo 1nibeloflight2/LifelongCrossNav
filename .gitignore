@@ -1,0 +1,23 @@
+# Model weights
+weights/
+
+# Evaluation outputs
+/result*/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Large binary files
+*.rrd
+traced_model.pt
+
+# Datasets (scene assets under license)
+datasets/scene_datasets/
+datasets/objectnav_hm3d_v1/

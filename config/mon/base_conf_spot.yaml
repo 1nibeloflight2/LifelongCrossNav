@@ -1,0 +1,12 @@
+#############################
+# Base Configuration for Spot
+#############################
+Conf:
+    controller: SpotControllerConf
+    log_rerun: True
+config: [
+  ./controller_spot.yaml,          # Default Spot Configuration THIS ONE WILL BE USED
+  ./controller_habitat.yaml, # Default Habitat Controller
+  ./mapping_conf_spot.yaml,       # Default Mapping Configuration
+  ./planning_conf.yaml       # Default Planning Configuration
+]

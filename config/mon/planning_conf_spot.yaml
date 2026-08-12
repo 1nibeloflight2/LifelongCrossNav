@@ -1,0 +1,18 @@
+PlanningConf:
+  percentile_exploitation: 99.0  # in percents [in mapper.py]
+  frontier_depth: 3.0  # in meters  [in mapper.py]
+  no_nav_radius: 0.9 # in meters  [in mapper.py]
+#  yolo_confidence: 0.5 # [in yolo_world_detector.py]
+  yolo_confidence: 0.6 # [in yolo_world_detector.py]
+  yolov7_confidence: 0.7 # closed-vocabulary target detector threshold
+  obj_confidence: 0.6 # secondary threshold for target object detections
+  filter_detections_depth: False # [in mapper.py]
+  filter_detections_map: True # [in mapper.py]
+  allow_replan: True # [in mapper.py]
+  use_frontiers: True # [in mapper.py]
+  allow_far_plan: False # [in mapper.py]
+  using_ov: False # [in mapper.py]
+  max_detect_distance: 1.8 # [in mapper.py]
+  objectnav_found_distance: 1.4 # objectnav called_found distance; requires current-frame confirmed target box
+  obstcl_kernel_size: 0.5 # [in mapper.py]
+  min_goal_dist: 0.7 # [in mapper.py]

@@ -1,0 +1,16 @@
+EvalConf:
+  multi_object: false
+  max_steps: 1000
+  max_dist: 1.0
+  is_gibson: False
+  object_nav_path: "datasets/objectnav_hm3d_v1/val/content/"
+  scene_path: "datasets/scene_datasets/"
+  log_rerun: False
+  use_pointnav: False
+  square_im: True
+
+config: [
+  ./controller_habitat.yaml, # Default Habitat Controller
+  ./mapping_conf_sim.yaml,       # Default Mapping Configuration
+  ./planning_conf.yaml       # Default Planning Configuration
+]

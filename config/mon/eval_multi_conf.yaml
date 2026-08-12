@@ -1,0 +1,16 @@
+EvalConf:
+  multi_object: True
+  max_steps: 1500
+  max_dist: 1.5
+  is_gibson: False
+  object_nav_path: "datasets/multiobject_episodes/"
+  scene_path: "datasets/scene_datasets/"
+  log_rerun: True
+  use_pointnav: False
+  square_im: True
+
+config: [
+  ./controller_habitat.yaml, # Default Habitat Controller
+  ./mapping_conf_sim.yaml,       # Default Mapping Configuration
+  ./planning_conf.yaml       # Default Planning Configuration
+]

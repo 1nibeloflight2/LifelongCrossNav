@@ -1,0 +1,17 @@
+MappingConf: # [all in feature_map.py]
+  n_points: 600  # Number of grid cells per dim
+  size: 60 # in meters, size of the map per dim
+  agent_radius: 0.2  # in meters
+  blur_kernel_size: 0.05  # in meters 0.5 default
+  obstacle_map_threshold: 0.4 # in occupancy value
+  fully_explored_threshold: 0.2  #
+  checked_map_threshold: 0.2  #
+  depth_factor: 0.01  #
+  gradient_factor: 0.2
+  optimal_object_distance: 1.0
+  optimal_object_factor: 1.5
+  obstacle_min: -0.6
+  obstacle_max: 0.5
+  filter_stairs: True
+  floor_level: -0.88
+  floor_threshold: -1.1

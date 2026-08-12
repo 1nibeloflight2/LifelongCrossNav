@@ -1,0 +1,12 @@
+####################################
+# Base Config for Habitat Simulation
+####################################
+Conf:
+  controller: HabitatControllerConf
+  log_rerun: True
+config: [
+  ./controller_spot.yaml,          # Default Spot Configuration,
+  ./controller_habitat.yaml, # Default Habitat Controller THIS ONE WILL BE USED
+  ./mapping_conf_sim.yaml,       # Default Mapping Configuration
+  ./planning_conf.yaml       # Default Planning Configuration
+]
