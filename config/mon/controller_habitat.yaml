@@ -1,0 +1,4 @@
+HabitatControllerConf:
+  control_freq: 10.0
+  max_vel: 1.5
+  max_ang_vel: 1.57

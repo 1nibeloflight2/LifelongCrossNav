@@ -1,0 +1,15 @@
+weights/
+datasets/
+/result*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+*.so
+*.rrd
+traced_model.pt
+.vscode/
+.idea/
+.DS_Store
